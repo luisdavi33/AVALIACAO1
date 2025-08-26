@@ -1,0 +1,82 @@
+<html>
+<head>
+<title>sistemAescola.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cf8e6d;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bcbec4;}
+.s3 { color: #7a7e85;}
+.s4 { color: #6aab73;}
+.s5 { color: #2aacb8;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+sistemAescola.java</font>
+</center></td></tr></table>
+<pre><span class="s0">import </span><span class="s1">java</span><span class="s2">.</span><span class="s1">util</span><span class="s2">.</span><span class="s1">Scanner</span><span class="s2">;</span>
+
+<span class="s0">public class </span><span class="s1">sistemAescola </span><span class="s2">{</span>
+
+        <span class="s0">public static void </span><span class="s1">main</span><span class="s2">(</span><span class="s1">String</span><span class="s2">[] </span><span class="s1">args</span><span class="s2">) {</span>
+
+            <span class="s1">Scanner sc </span><span class="s2">= </span><span class="s0">new </span><span class="s1">Scanner</span><span class="s2">(</span><span class="s1">System</span><span class="s2">.</span><span class="s1">in</span><span class="s2">);</span>
+
+            <span class="s3">//Entradas de dados</span>
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;Digite a nota 1&quot;</span><span class="s2">);</span>
+            <span class="s0">double </span><span class="s1">nota1 </span><span class="s2">= </span><span class="s1">sc</span><span class="s2">.</span><span class="s1">nextDouble</span><span class="s2">();</span>
+
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;Digite a nota 2&quot;</span><span class="s2">);</span>
+            <span class="s0">double </span><span class="s1">nota2 </span><span class="s2">= </span><span class="s1">sc</span><span class="s2">.</span><span class="s1">nextDouble</span><span class="s2">();</span>
+
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;Digite a nota 3&quot;</span><span class="s2">);</span>
+            <span class="s0">double </span><span class="s1">nota3 </span><span class="s2">= </span><span class="s1">sc</span><span class="s2">.</span><span class="s1">nextDouble</span><span class="s2">();</span>
+
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;Digite a nota 4&quot;</span><span class="s2">);</span>
+            <span class="s0">double </span><span class="s1">nota4 </span><span class="s2">= </span><span class="s1">sc</span><span class="s2">.</span><span class="s1">nextDouble</span><span class="s2">();</span>
+
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;Digite a nota 5&quot;</span><span class="s2">);</span>
+            <span class="s0">double </span><span class="s1">nota5 </span><span class="s2">= </span><span class="s1">sc</span><span class="s2">.</span><span class="s1">nextDouble</span><span class="s2">();</span>
+
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;Digite a nota 6&quot;</span><span class="s2">);</span>
+            <span class="s0">double </span><span class="s1">nota6 </span><span class="s2">= </span><span class="s1">sc</span><span class="s2">.</span><span class="s1">nextDouble</span><span class="s2">();</span>
+
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;Digite a nota 7&quot;</span><span class="s2">);</span>
+            <span class="s0">double </span><span class="s1">nota7 </span><span class="s2">= </span><span class="s1">sc</span><span class="s2">.</span><span class="s1">nextDouble</span><span class="s2">();</span>
+
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;Digite a nota 8&quot;</span><span class="s2">);</span>
+            <span class="s0">double </span><span class="s1">nota8 </span><span class="s2">= </span><span class="s1">sc</span><span class="s2">.</span><span class="s1">nextDouble</span><span class="s2">();</span>
+
+            <span class="s3">// Processamento</span>
+            <span class="s0">double </span><span class="s1">notaBimestre1 </span><span class="s2">= (</span><span class="s1">nota1 </span><span class="s2">+ </span><span class="s1">nota2</span><span class="s2">) / </span><span class="s5">2</span><span class="s2">;</span>
+            <span class="s0">double </span><span class="s1">notaBimestre2 </span><span class="s2">= (</span><span class="s1">nota3 </span><span class="s2">+ </span><span class="s1">nota4</span><span class="s2">) / </span><span class="s5">2</span><span class="s2">;</span>
+            <span class="s0">double </span><span class="s1">notaBimestre3 </span><span class="s2">= (</span><span class="s1">nota5 </span><span class="s2">+ </span><span class="s1">nota6</span><span class="s2">) / </span><span class="s5">2</span><span class="s2">;</span>
+            <span class="s0">double </span><span class="s1">notaBimestre4 </span><span class="s2">= (</span><span class="s1">nota7 </span><span class="s2">+ </span><span class="s1">nota8</span><span class="s2">) / </span><span class="s5">2</span><span class="s2">;</span>
+            <span class="s0">double </span><span class="s1">notaSemestre1 </span><span class="s2">= (</span><span class="s1">notaBimestre1 </span><span class="s2">+ </span><span class="s1">notaBimestre2</span><span class="s2">) / </span><span class="s5">2</span><span class="s2">;</span>
+
+            <span class="s0">double </span><span class="s1">notaSemestre2 </span><span class="s2">= (</span><span class="s1">notaBimestre3 </span><span class="s2">+ </span><span class="s1">notaBimestre4</span><span class="s2">) / </span><span class="s5">2</span><span class="s2">;</span>
+
+            <span class="s0">double </span><span class="s1">notaFinal </span><span class="s2">= (</span><span class="s1">notaSemestre1 </span><span class="s2">+ </span><span class="s1">notaSemestre2</span><span class="s2">) / </span><span class="s5">2</span><span class="s2">;</span>
+
+
+            <span class="s3">// Saídas</span>
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;-------------------------------&quot;</span><span class="s2">);</span>
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;A média do bimestre 1 é &quot; </span><span class="s2">+ </span><span class="s1">notaBimestre1</span><span class="s2">);</span>
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;A média do bimestre 2 é &quot; </span><span class="s2">+ </span><span class="s1">notaBimestre2</span><span class="s2">);</span>
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;A média do semestre 1 é &quot; </span><span class="s2">+ </span><span class="s1">notaSemestre1</span><span class="s2">);</span>
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;A média do bimestre 3 é &quot; </span><span class="s2">+ </span><span class="s1">notaBimestre3</span><span class="s2">);</span>
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;A média do bimestre 4 é &quot; </span><span class="s2">+ </span><span class="s1">notaBimestre4</span><span class="s2">);</span>
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;A média do semestre 2 é &quot; </span><span class="s2">+ </span><span class="s1">notaSemestre2</span><span class="s2">);</span>
+            <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s4">&quot;A média final é &quot; </span><span class="s2">+ </span><span class="s1">notaFinal</span><span class="s2">);</span>
+        <span class="s2">}</span>
+    <span class="s2">}</span>
+<span class="s3">//</span>
+
+
+
+</pre>
+</body>
+</html>
